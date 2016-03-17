@@ -49,7 +49,8 @@ case '1':
 case '0':
         break;
 default:
-	printf("ENTER VALID CHOICE\n");
+//	printf("ENTER VALID CHOICE\n");
+	invalid();
 	break;
 }
 closegraph();
